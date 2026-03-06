@@ -1,0 +1,51 @@
+.services {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 36px;
+  color: #ff0099;
+  margin-bottom: 40px;
+}
+
+/* Service Cards Grid */
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Individual Card */
+.card {
+  background-color: #fff;
+  padding: 25px 20px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h3 {
+  color: #ff0099;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card .price {
+  font-weight: bold;
+  color: #ff0099;
+  font-size: 18px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}

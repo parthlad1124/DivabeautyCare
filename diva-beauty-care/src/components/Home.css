@@ -1,0 +1,66 @@
+.home {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Banner Section */
+.banner {
+  background: linear-gradient(90deg, #ff0099, #ff66cc);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+  animation: bannerAnimation 5s ease-in-out infinite alternate;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.banner button {
+  background-color: #fff;
+  color: #ff0099;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.banner button:hover {
+  background-color: #ff66cc;
+  color: #fff;
+}
+
+/* Banner Animation */
+@keyframes bannerAnimation {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Welcome Section */
+.welcome {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.welcome h2 {
+  font-size: 36px;
+  color: #ff0099;
+  margin-bottom: 15px;
+}
+
+.welcome p {
+  font-size: 18px;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+}
